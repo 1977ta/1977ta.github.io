@@ -4,95 +4,187 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/img/7.JPG">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/index.css">
-  <title>麦のファイル</title>
+  <title>My Portfolio</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <a href="#">
-        <h1><img src="/img/1.JPG" alt="麦の画像"
-          width="160"></h1>
-      </a>
-      <form action="">
-        <input type="text" name="" id="">
-        <button><i class="bi bi-search"></i></button>
-      </form>
-      <nav>
-        <ul>
-          <li><a href="#">
-            <i class="bi bi-person-circle"></i>
-            ログイン</a></li>
-          <li><a href="#">
-            <i class="bi bi-cart4"></i>
-            カート</a></li>
-        </ul>
-      </nav>
-    </div>
+
+  <header class="header">
+    <h1 class="header-logo">
+      <img src="/image/logo.png" alt="My Portfolio">
+    </h1>
+    <nav>
+      <ul class="header-list">
+        <li class="header-item">
+          <a href="">about</a>
+        </li>
+        <li class="header-item">
+          <a href="">skills</a>
+        </li>
+        <li class="header-item">
+          <a href="">works</a>
+        </li>
+        <li class="header-item">
+          <a href="">contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
-  
-  <section class="hero">
-    <img src="/img/2.JPG" alt="素敵な麦" class="current">
-    <img src="/img/11.JPG" alt="素敵な麦" >
-    <img src="/img/13.JPG" alt="素敵な麦">
-  </section>
 
-  <section class="products">
-    <div class="container">
-      <h1>麦画像</h1>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="/img/3.JPG" alt="素敵な麦">
-            <h2>素敵な麦</h2>
-            <p>おはよう</p>
-          </a>
+  <main class="main">
+
+    <section class="firstview">
+      <div class="firstview-message">
+      <span>M</span>y-<span>P</span>ortfolio
+      </div>
+    </section>
+
+    <section class="about">
+      <h2 class="cmn-title">
+        <span class="sub-title">abput</span>
+        <span class="main-title">私について</span>
+      </h2>
+      <div class="about-wrapper">
+        <div class="about-image">
+          <img src="/image/aboutme.jpg" alt="私について">
+        </div>
+        <div class="about-text">
+          <div class="about-greeting">
+            <h3 class="about-subtitle">ご挨拶</h3>
+            <p class="greeting-desc">
+              ご訪問いただきありがとうございます。エンジニアとして活動しております〇〇と申します。<br>  お客様とのコミュニケーションを大切にし、１つ１つの案件を丁寧に制作いたします。
+            </p>
+          </div>
+          <div class="about-career">
+            <h3 class="about-subtitle">経歴</h3>
+            <ul class="career-list">
+              <li class="career-item">2000年生まれ、〇〇出身</li>
+              <li class="career-item">2021年○月 プログラミングの学習を開始</li>
+              <li class="career-item">2021年○月 WEBサイトの初案件獲得</li>
+              <li class="career-item">現在はエンジニアとして活動中</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2 class="cmn-title">
+        <span class="sub-title">skills</span>
+        <span class="main-title">使用スキル</span>
+      </h2>
+      <ul class="skill-list">
+        <li class="skill-item">
+          <div class="skill-image">
+            <img src="/image/logo-html.png" alt="html">
+          </div>
+          <h3 class="skill-name">HTML</h3>
+          <p class="slill-desc">
+            SEOを意識したコーディングを行い、信頼でき得るサイトを作成します。
+          </p>
         </li>
-        <li>
-          <a href="#">
-            <img src="/img/4.JPG" alt="素敵な麦">
-            <h2>素敵な麦</h2>
-            <p>こんにちは</p>
-          </a>
+        <li class="skill-item">
+          <div class="skill-image">
+            <img src="/image/logo-css.png" alt="css">
+          </div>
+          <h3 class="skill-name">CSS</h3>
+          <p class="slill-desc">
+            誰が見てもわかりやすい、シンプルなマークアップを心がけています。
+          </p>
         </li>
-        <li>
-          <a href="#">
-            <img src="/img/5.JPG" alt="素敵な麦">
-            <h2>素敵な麦</h2>
-            <p>こんばんわ</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="/img/6.JPG" alt="素敵な麦">
-            <h2>素敵な麦</h2>
-            <p>お疲れ</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="/img/8.JPG" alt="素敵な麦">
-            <h2>素敵な麦</h2>
-            <p>おすわり</p>
-          </a>
+        <li class="skill-item">
+          <div class="skill-image">
+            <img src="/image/logo-javascript.png" alt="javascript">
+          </div>
+          <h3 class="skill-name">Java Script</h3>
+          <p class="slill-desc">
+           モダンなアニメーション・動きを、お客様の要望に合わせて実装します。
+          </p>
         </li>
       </ul>
-      <a href="#" class="more">もっと見る</a>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      <small>&copy; mugi.com</small>
-      <ul>
-        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+    <section class="works">
+      <h2 class="cmn-title">
+        <span class="sub-title">works</span>
+        <span class="main-title">制作実績</span>
+      </h2>
+      <ul class="work-list">
+        <li class="work-item">
+          <div class="work-image">
+            <img src="/image/works-portfolio.png" alt="my portfolio">
+          </div>
+          <div class="work-text">
+            <p class="work-title">タイトル:My Portfolio</p>
+            <p class="work-skill">使用技術:HTML,CSSレスポンシブ対応</p>
+            <p class="work-time">制作期間:約１週間</p>
+            <p class="work-desc">私のポートフォリオになります。シンプルさとわかりやすさを意識して制作いたしました。</p>
+          </div>
+        </li>
+        <li class="work-item">
+          <div class="work-image">
+            <img src="/image/works-salon.jpg" alt="salon">
+          </div>
+          <div class="work-text">
+            <p class="work-title">タイトル:サンプル美容院</p>
+            <p class="work-skill">使用技術:HTML,CSS</p>
+            <p class="work-time">制作期間:約２週間</p>
+            <p class="work-desc">新規オープンのサロンサイト制作を担当しました。</p>
+          </div>
+        </li>
+        <li class="work-item">
+          <div class="work-image">
+            <img src="/image/works-clinic.jpg" alt="clinic">
+          </div>
+          <div class="work-text">
+            <p class="work-title">タイトル:サンプルクリニック</p>
+            <p class="work-skill">使用技術:HTML,CSS</p>
+            <p class="work-time">制作期間:約３週間</p>
+            <p class="work-desc">クリニックサイトのリニューアルを担当しました。</p>
+          </div>
+        </li>
       </ul>
-    </div>
+    </section>
+
+    <section class="contact">
+      <h2 class="cmn-title">
+        <span class="sub-title">contact</span>
+        <span class="main-title">お問い合わせ</span>
+      </h2>
+      <div class="contact-text">
+        <p class="contact-message">お問い合わせはこちらまで</p>
+        <p class="contact-mail">sample@sample.com</p>
+      </div>
+      <div class="icon-area">
+        <a href=""> <i class="bi bi-twitter"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></a> 
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <nav>
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a href="">about</a>
+        </li>
+        <li class="footer-item">
+          <a href="">skills</a>
+        </li>
+        <li class="footer-item">
+          <a href="">works</a>
+        </li>
+        <li class="footer-item">
+          <a href="">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <p class="copy-right">&copy; 2022 My Portfolio</p>
+
   </footer>
-
-  <script src="js/index.js"></script>
 </body>
 </html>

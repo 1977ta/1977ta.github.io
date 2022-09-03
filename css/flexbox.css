@@ -1,0 +1,35 @@
+.flex{
+  background: #ddd;
+  max-width: 700px;
+  height: 400px;
+
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+
+  /* align-items: center; */
+  /* align-items: flex-end; */
+
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row-reverse; */
+
+  flex-wrap: wrap;
+}
+
+.box1{
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+.box2{
+  width: 200px;
+  height: 100px;
+  background: green;
+}
+.box3{
+  width: 200px;
+  height: 100px;
+  background: yellow;
+}
