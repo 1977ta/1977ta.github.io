@@ -1,0 +1,77 @@
+@media(min-width:600px){
+  
+  /* header */
+  .header-list{
+    display: block;
+    display: flex;
+  }
+  .header-item a{
+    color: inherit;
+    font-size: 1.4rem;
+  }
+  .header-item a:hover{
+    background: #e4e4e4;
+    color: #999;
+  }
+  .hum-btn,
+  .hum-btn span{
+    display: none;
+  }
+
+
+/* hero */
+  .hero span{
+  font-size: 4.5rem;
+  }
+
+  /* about */
+  .about-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .about-img{
+    width: 500px;
+  }
+  .about-list{
+    width: 500px;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .about-list h3{
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  /* skill */
+  .skill{
+    width: 100%;
+  }
+  .skill-list{
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+  }
+  .skill-item{
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .skill-img{
+    max-width: 400px;
+  }
+  .skill-text{
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+@media(min-width:1000px){
+
+}

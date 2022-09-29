@@ -4,133 +4,143 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="icon" href="/img/img3.jpg">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <title>Scenery(風景) My Portfolio</title>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/hum.css">
+  <link rel="stylesheet" href="/css/pcmenu.css">
+  <title>Document</title>
 </head>
 <body>
-  <header>
-    <div>
-      <h1>Scenery（風景）</h1>
-    </div>
-    <div class="pc-menu">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#info">Info</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="sp-menu">
-      <span class="bi bi-list" id="open"></span>
-    </div>
+  <header id="home">
+      <div class="header-top">
+          <div class="header-title">
+              <h1>(風景)</h1>
+          </div>
+          <ul class="header-list">
+              <li class="header-item"><a href="#home">Home</a></li>
+              <li class="header-item"><a href="#about">About</a></li>
+              <li class="header-item"><a href="#skill">Skill</a></li>
+              <li class="header-item"><a href="#info">Info</a></li>
+          </ul>
+      </div>
+      <div id="humTop">
+          <nav class="hum">
+              <div class="humlist">
+                  <ul class="humitem" id="humItem">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#skill">Skill</a></li>
+                      <li><a href="#info">Info</a></li>
+                  </ul>
+              </div>
+          </nav>
+          <div class="hum-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div id="mask"></div>
+      </div>
   </header>
-  
-    <div class="overlay">
-      <span class="bi bi-x-lg" id="close"></span>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#info">Info</a></li>
-        </ul>
-      </nav>
+
+  <section class="hero">
+    <div class="hero-img">
+        <span>ポート <br> フォリオ</span>
+        <img src="/img/img1.jpg" alt="風景画像">
+        <img src="/img/img2.jpg" alt="風景画像">
+        <img src="/img/img3.jpg" alt="風景画像">
     </div>
-
-  <main>
-    <section class="hero">
-      <img src="/img/img2.jpg" alt="風景画像" class="current">
-      <img src="/img/img1.jpg" alt="風景画像">
-      <img src="/img/img5.jpg" alt="風景画像">
-    </section>
-
-    <section class="about" id="about">
-      <h2>
+  </section>
+  
+  <section class="about" id="about">
+    <h2>
         <span class="sub-title">About</span>
         <span class="mein-title">自己紹介</span>
-      </h2>
-      <div class="about-wrap">
-        <div class="about-img">
-          <img src="/img/img4.jpg" alt="風景画像">
+    </h2>
+    <div class="about-container">
+        <div class="about-wrap">
+            <div class="about-img animate">
+                <img src="/img/img4.jpg" alt="風景画像">
+            </div>
+            <div class="about-list animate">
+                    <h3>ご挨拶</h3>
+                     <p>初めまして。エンジニアとして活動しています安西と申します。<br>お客様とのコミュニケーションを大切にし、１つ１つの案件を丁寧に制作いたします。</p>
+                <ul class="about-text animate">
+                    <li>1977年生まれ、北海道出身</li>
+                    <li>1997年より福祉関連の仕事に携わる</li>
+                    <li>2022年よりプログラミングの学習を開始</li>
+                    <li>現在副業でエンジニアを行っている。</li>
+                </ul>
+            </div>
         </div>
-        <div class="about-text">
-          <h3>ご挨拶</h3>
-          <p>
-            初めまして。エンジニアとして活動しています安西と申します。<br>
-            お客様とのコミュニケーションを大切にし、１つ１つの案件を丁寧に制作いたします。
-          </p>
-          <ul class="career-list">
-            <li class="career-item">1977年生まれ、北海道出身</li>
-            <li class="career-item">1997年より福祉関連の仕事に携わる</li>
-            <li class="career-item">2022年よりプログラミングの学習を開始</li>
-            <li class="career-item">現在副業としてエンジニアを行っている。</li>
-          </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="skills" id="skills">
-      <h2>
-        <span class="sub-title">Skills</span>
+  <section class="skill" id="skill">
+    <h2>
+        <span class="sub-title">Skill</span>
         <span class="mein-title">使用スキル</span>
-      </h2>
-      <ul class="skills-list">
-        <li class="skills-item">
-          <div class="skills-img">
-            <img src="/img/img6.jpg" alt="風景画像">
-          </div>
-          <h3>HTML</h3>
-          <p>SEOを意識したコーディングを行い、信頼できるサイトを目指して制作します。</p>
+    </h2>
+    <ul class="skill-list">
+        <li class="skill-item">
+            <div class="skill-img animate left">
+                <img src="/img/img5.jpg" alt="風景画像">
+            </div>
+            <div class="skill-text animate left">
+                <h3>HTML</h3>
+                <p>SEOを意識したコーディングを行い、信頼出来るサイトを目指して作成します。</p>
+            </div>
         </li>
-        <li class="skills-item">
-          <div class="skills-img">
-            <img src="/img/img7.jpg" alt="風景画像">
-          </div>
-          <h3>CSS</h3>
-          <p>お客様が見てもわかりやすい、シンプルなマークアップを心かけています。</p>
+        <li class="skill-item">
+            <div class="skill-img animate">
+                <img src="/img/img6.jpg" alt="風景画像">
+            </div>
+            <div class="skill-text animate ">
+                <h3>CSS</h3>
+                <p>お客さまが見てもわかりやすい、シンプルなマークアップを心かけています。</p>
+            </div>
         </li>
-        <li class="skills-item">
-          <div class="skills-img">
-            <img src="/img/img8.jpg" alt="風景画像">
-          </div>
-          <h3>Java Script</h3>
-          <p>アニメーション・動きをお客様の要望に合わせて実装します。</p>
+        <li class="skill-item">
+            <div class="skill-img animate right">
+                <img src="/img/img7.jpg" alt="風景画像">
+            </div>
+            <div class="skill-text animate right">
+                <h3>Java Script</h3>
+                <p>アニメーション・動きをお客様の要望に合わせて実装します。</p>
+            </div>
         </li>
-      </ul>
-    </section>
-    
-    <section class="info" id="info">
-      <h2>
+    </ul>
+  </section>
+
+  <section class="info" id="info">
+    <h2>
         <span class="sub-title">Info</span>
         <span class="mein-title">お問い合わせ</span>
-      </h2>
-      <div class="info-img">
-        <img src="/img/img9.jpg" width="300" alt="背景画像">
-      </div>
-      <div class="info-text">
-        <p>お問い合わせはこちらまで</p>
-        <p><strong>tu08to19mu@icloud.com</strong></p>
-      </div>
-    </section>
-  </main>
+    </h2>
+        <div class="info-img animate"></div>
+    <div id="modal" class="hidden">
+         <div class="info-list"></div>
+         <div class="info-text">
+            <p>お問い合わせはこちらまで</p>
+            <p>tu08to19mu@icloud.com</p>
+         </div> 
+        <button id="close">閉じる</button>
+    </div>
+        <button id="open">詳細を見る</button>
+        <div id="mask" class="hidden"></div>
+  </section>
 
   <footer>
     <nav>
-      <ul class="footer-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#info">Info</a></li>
-      </ul>
+        <ul class="footer-list">
+            <li class="footer-item"><a href="#home">Home</a></li>
+            <li class="footer-item"><a href="#about">About</a></li>
+            <li class="footer-item"><a href="#skill">Skill</a></li>
+            <li class="footer-item"><a href="#info">Info</a></li>
+        </ul>
     </nav>
-    <p><small>&copy; 2022 Scenery(風景) My Portfolio</small></p>
+    <small>&copy; 2022 (風景) My Portfolio</small>
   </footer>
 
-  <script src="js/index.js"></script>
+  <script src="/js/index.js"></script>
 </body>
 </html>
