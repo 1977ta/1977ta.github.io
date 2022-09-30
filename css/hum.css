@@ -2,13 +2,11 @@
   background: #eee;
   display: block;
   width: 100%;
-  /* width: 500px; */
   position: fixed;
   top: 0;
   bottom: 0;
   transition: all .5s;
   z-index: 3;
-  /* right: -700px; */
   opacity: 0;
   pointer-events: none;
 }
@@ -20,6 +18,7 @@
 }
 .humitem{
   list-style: none;
+  padding-left: 0;
 }
 .humitem li{
   padding: 20px;
@@ -62,7 +61,6 @@
   top: -11px;
 }
 .open .hum{
-  /* right: 0; */
   opacity: 1;
   pointer-events: auto;
 }
